@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Polls</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxO5UB9qXeTXBZ9_bf-hv9Eg6la1BtZqiXkg&usqp=CAU" </link>
+</head>
+
+<body>
+    <div class="polls">
+        <div class="poll">
+            <form id="pollOne">
+                <h3 class="pollName" id="pollOneName">Is there a specific website you would like me to make? I can also make an app but I cannot publish it because it costs money :(</h1>
+                    <input type="text" name="pollOneResponse" class="pollTextResponse" id="pollOneResponse" placeholder="Answer here">
+                    <br>
+                    <br>
+                    <input type="submit" value="Submit response" id="pollOneSubmit" class="pollSubmit">
+            </form>
+        </div>
+        <div class="poll">
+            <form id="pollTwo">
+                <h3 class="pollName" id="pollTwoName">Should TM Vote This Election?</h3>
+                <input type="text" name="pollTwoResponse" id="pollTwoResponse" placeholder="Response">
+                <br>
+                <br>
+                <input type="submit" value="Submit Response" id="pollTwoSubmit" class="pollSubmit">
+            </form>
+        </div>
+        <!--Firebase stuff-->
+        <!-- The core Firebase JS SDK is always required and must be listed first -->
+        <script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-app.js"></script>
+
+        <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+        <script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-analytics.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/8.2.1/firebase-firestore.js"></script>
+        <!--End Firebase stuff-->
+        <script defer src="submitForm.js"></script>
+    </div>
+    <button id="pollRequestBtn">Contact me for a poll request!</button>
+    <!--Modal With Creation Form-->
+    <div id="pollRequestModal" class="modal">
+        <div class="modal-content">
+            <span class="closeBtn">&times;</span>
+            <a id="submitPollRequestForm" href="mailto:iamthegreatbeaver@gmail.com?subject=Poll Request&body=I would like to suggest a poll for your polling website. [Enter poll name here and other messages] Thanks!" target="_blank">Contact Me</a>
+        </div>
+    </div>
+    <script src="createPoll.js"></script>
+</body>
+
+</html>
