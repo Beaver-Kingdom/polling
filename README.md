@@ -1,8 +1,9 @@
 # Table of Contents
 1. [Polling ](#Polling)
 2. [How-To](#How-To)
-3. [Notes](#Notes)
-3. [Open The App](#Opening)
+3. [The Request-Poll Button](#The&nbsp;Request-Poll&nbsp;Button)
+4. [Notes](#Notes)
+5. [Open The App](#Opening)
 # Polling
 Beaverean Polling
 
@@ -17,7 +18,7 @@ Step Four: Check for success. If it says submitted, great! If not, check the con
 
 Thanks!
 
-# The Request Poll Button
+# The&nbsp;Request-Poll&nbsp;Button
 
 This button is also still a work in progress.
 
