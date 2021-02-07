@@ -15,11 +15,14 @@ var firebaseConfig = {
 firebase.initializeApp(firebaseConfig);
 firebase.analytics();
 var db = firebase.firestore();
+//One
 pollOne.addEventListener("submit", function(e) {
     e.preventDefault();
-    const pollOneResponse = document.getElementById("pollOneResponse").value
+    const pollOneResponse = document.getElementById("pollOneResponse").value;
+    const pollOneName = document.getElementById("pollOneName").innerText;
     db.collection("pollOneResponses").add({
-            response: pollOneResponse,
+        "Poll Name":pollOneName,
+        response: pollOneResponse,
         })
         .then(function(docRef) {
             console.log("Document written with ID: ", docRef.id);
@@ -31,11 +34,14 @@ pollOne.addEventListener("submit", function(e) {
     document.getElementById('pollOneResponse').placeholder = "Submitted!"
     document.getElementById('pollOneResponse').disabled = true
 })
+//Two
 pollTwo.addEventListener("submit", function(e) {
     e.preventDefault();
-    const pollTwoResponse = document.getElementById("pollTwoResponse").value
+    const pollTwoResponse = document.getElementById("pollTwoResponse").value;
+    const pollTwoName = document.getElementById("pollTwoName").innerText;
     db.collection("pollTwoResponses").add({
-            response: pollTwoResponse,
+        "Poll Name":pollTwoName,
+        response: pollTwoResponse,
         })
         .then(function(docRef) {
             console.log("Document written with ID: ", docRef.id);
@@ -46,4 +52,23 @@ pollTwo.addEventListener("submit", function(e) {
     document.getElementById("pollTwoResponse").value = ""
     document.getElementById('pollTwoResponse').placeholder = "Submitted!"
     document.getElementById('pollTwoResponse').disabled = true
+})
+//Three
+pollThree.addEventListener("submit", function(e) {
+    e.preventDefault();
+    const pollThreeResponse = document.getElementById("pollThreeResponse").value
+    const pollThreeName = document.getElementById("pollThreeName").innerText;
+    db.collection("pollThreeResponses").add({
+            "Poll Name": pollThreeName,
+            response: pollThreeResponse,
+        })
+        .then(function(docRef) {
+            console.log("Document written with ID: ", docRef.id);
+        })
+        .catch(function(error) {
+            console.error("Error adding document: ", error);
+        });
+    document.getElementById("pollThreeResponse").value = ""
+    document.getElementById('pollThreeResponse').placeholder = "Submitted!"
+    document.getElementById('pollThreeResponse').disabled = true
 })
