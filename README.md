@@ -1,6 +1,5 @@
 # Table of Contents
 1. [Polling ](#Polling)
-2. [How To Use] (#How-To-Use)
 # Polling
 Beaverean Polling
 
