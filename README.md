@@ -1,7 +1,7 @@
 # Table of Contents
 1. [Polling ](#Polling)
 2. [How-To](#How-To)
-3. [The Request-Poll Button](#The&nbsp;Request-Poll&nbsp;Button)
+3. [The Request-Poll Button](#therequest-pollbutton)
 4. [Notes](#Notes)
 5. [Open The App](#Opening)
 # Polling
