@@ -2,6 +2,7 @@
 1. [Polling ](#Polling)
 2. [How-To](#How-To)
 3. [Notes](#Notes)
+3. [Open The App](#Open&nbsp;The&nbsp;App)
 # Polling
 Beaverean Polling
 
@@ -16,6 +17,15 @@ Step Four: Check for success. If it says submitted, great! If not, check the con
 
 Thanks!
 
+# The Request Poll Button
+
+This button is also still a work in progress.
+
+It will open a modal.
+
+The modal will have one button in it. When you click on it, it will open, in a new tab, a new email with some stuff already there. Simply add the poll name, notes, etc, where it says.
+
+Remember, it is still a work in progress.
 
 # Notes
 
@@ -28,3 +38,7 @@ Expect some bugs (though we will try to patch them quickly).
 We may take down polls if they are inactive for too long
 
 Finally, thanks so much!
+
+# Open&nbsp;The&nbsp;App
+
+Simply open the [website](https://beaver-kingdom.github.io/polling/) in the link!
