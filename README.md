@@ -6,7 +6,7 @@
 Beaverean Polling
 
 # How-To
-Step One: Find the poll that you want (we may take down polls if they are inactive for too long).
+Step One: Find the poll that you want.
 
 Step Two: Write your answer in the text field.
 
@@ -21,6 +21,10 @@ Thanks!
 
 We are planning on implementing a "create poll" feature. The best way for us will require a move of the website. We will link it here when/if it is made.
 
-This website is still not perfect. Expect some bugs (though we will try to patch them quickly)
+This website is still not perfect. 
+
+Expect some bugs (though we will try to patch them quickly).
+
+We may take down polls if they are inactive for too long
 
 Finally, thanks so much!
