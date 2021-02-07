@@ -2,7 +2,7 @@
 1. [Polling ](#Polling)
 2. [How-To](#How-To)
 3. [Notes](#Notes)
-3. [Open The App](#Open&nbsp;The&nbsp;App)
+3. [Open The App](#Opening)
 # Polling
 Beaverean Polling
 
@@ -39,6 +39,6 @@ We may take down polls if they are inactive for too long
 
 Finally, thanks so much!
 
-# Open&nbsp;The&nbsp;App
+# Opening
 
 Simply open the [website](https://beaver-kingdom.github.io/polling/) in the link!
