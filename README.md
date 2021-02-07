@@ -41,4 +41,4 @@ Finally, thanks so much!
 
 # Opening
 
-Simply open the [website](https://beaver-kingdom.github.io/polling/) in the link!
+Simply open the <a href="https://beaver-kingdom.github.io/polling/" target="_blank">website</a> in the link!
