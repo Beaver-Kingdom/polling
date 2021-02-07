@@ -38,6 +38,8 @@ Expect some bugs (though we will try to patch them quickly).
 
 We may take down polls if they are inactive for too long
 
+I know I've said this a zillion times, but this is still a work in progress.
+
 Finally, thanks so much!
 
 # Opening
