@@ -1,9 +1,10 @@
 # Table of Contents
 1. [Polling ](#Polling)
+2. [How-To](#How-To)
 # Polling
 Beaverean Polling
 
-# How-To-Use
+# How-To
 Step One: Find the poll that you want (we may take down polls if they are inactive for too long).
 
 Step Two: Write your answer in the text field.
