@@ -72,3 +72,21 @@ pollThree.addEventListener("submit", function(e) {
     document.getElementById('pollThreeResponse').placeholder = "Submitted!"
     document.getElementById('pollThreeResponse').disabled = true
 })
+pollFour.addEventListener("submit", function(e) {
+    e.preventDefault();
+    const pollFourResponse = document.getElementById("pollFourResponse").value
+    const pollFourName = document.getElementById("pollFourName").innerText;
+    db.collection("pollThreeResponses").add({
+            "Poll Name": pollFourName,
+            response: pollFourResponse,
+        })
+        .then(function(docRef) {
+            console.log("Document written with ID: ", docRef.id);
+        })
+        .catch(function(error) {
+            console.error("Error adding document: ", error);
+        });
+    document.getElementById("pollFourResponse").value = ""
+    document.getElementById('pollFourResponse').placeholder = "Submitted!"
+    document.getElementById('pollFourResopnse').disabled = true
+})
