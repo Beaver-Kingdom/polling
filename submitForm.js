@@ -76,7 +76,7 @@ pollThree.addEventListener("submit", function(e) {
 })
 pollFour.addEventListener("submit", function(e) {
     e.preventDefault();
-    const pollFourResponse = document.getElementById("pollFourResponse").value
+    const pollFourResponse = document.getElementById("pollFourResponse").value;
     const pollFourName = document.getElementById("pollFourName").innerText;
     db.collection("pollFourResponse").add({
             "Poll Name": pollFourName,
