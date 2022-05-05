@@ -1,5 +1,7 @@
 const pollOne = document.getElementById("pollOne")
 const pollTwo = document.getElementById("pollTwo")
+const pollThree = document.getElementById("pollThree")
+const pollFour = document.getElementById("pollFour")
     // Your web app's Firebase configuration
     // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 var firebaseConfig = {
